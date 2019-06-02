@@ -2,7 +2,7 @@
     "name": "zjsy/think-extend-demo",
     "description": "thinkphp5.1 composer extend demo",
     "type": "think-extend",
-    "version": "0.0.1-dev",
+    "version": "0.0.1",
     "require": {
         "topthink/think-helper": ">=1.0.4",
         "topthink/think-installer": "^2.0",
@@ -15,7 +15,7 @@
             "email": "820355121@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
 	    "autoload": {
         "psr-4": {
             "think\\": "src"

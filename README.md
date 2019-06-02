@@ -2,17 +2,9 @@
 
 ## 安装
 
-> composer require topthink/think-queue
+> composer require zjsy/think-extend-demo
 
-## 配置
-
-> 配置文件位于 `config/queue.php`
-
-### 公共配置
-
+## 说明
 ```
-[
-    'connector'=>'sync' //驱动类型，可选择 sync(默认):同步执行，database:数据库驱动,redis:Redis驱动,topthink:Topthink驱动
-                   //或其他自定义的完整的类名
-]
+php think list 查看注入的命令
 ```
