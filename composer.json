@@ -15,9 +15,9 @@
         }
     ],
     "minimum-stability": "stable",
-	    "autoload": {
+    "autoload": {
         "psr-4": {
-            "think\\": "src"
+            "young\\": "src"
         },
         "files": [
             "src/common.php"
