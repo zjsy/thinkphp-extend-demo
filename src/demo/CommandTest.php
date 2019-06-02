@@ -16,7 +16,7 @@ class CommandTest extends Command
 {
     protected function configure()
     {
-        $this->setName('command-test')
+        $this->setName('command:test')
             ->addArgument('name', Argument::OPTIONAL, "your name")
             ->addOption('city', null, Option::VALUE_REQUIRED, 'city name')
             ->setDescription('Say Hello');
